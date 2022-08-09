@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h1 {
+  text-align: center;
+  background-color: turquoise;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.3rem;
+}
+
+.banner-image {
+  background-image: url("https://www.karunya.edu/img/general/aerial-view.jpg.pagespeed.ce.4_-R-b0nuM.jpg");
+  width: 1920;
+  height: 571px;
+  max-width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+}
+
+.about-us {
+  background-color: wheat;
+  padding: 10px;
+}
+
+.cse {
+  background-image: url("https://www.indcareer.com/files/imagecache/node-gallery-display/departments/433/dept.jpg");
+  width: 640px;
+  height: 300px;
+}
+
+.library {
+  background-image: url("https://www.karunya.edu/sites/default/files/img/site/ece/ecelibrary.jpg.pagespeed.ce.WrBRhKXFEQ.jpg");
+  width: 640px;
+  height: 300px;
+}
+
+.biotech {
+  background-image: url("https://www.karunya.edu/img/biotechnology/2020/cell-biology-Lab.jpg.pagespeed.ce.45yddqsqjO.jpg");
+  width: 640px;
+  height: 300px;
+}
+
+#imageColumn {
+  float: left;
+  width: 33.33%;
+}
+
+.divtext {
+  color: aliceblue;
+  text-align: center;
+  background-color: black;
+  opacity: 0.6;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.divtext-lib {
+  color: aliceblue;
+  text-align: center;
+  background-color: black;
+  opacity: 0.6;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 270px;
+}
+
+.campus-life {
+  display: table;
+  margin: 0 auto;
+  background-color: wheat;
+}
+
+.campus-left h2 {
+  text-align: left;
+}
+
+.campus-left {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 50px;
+}
+
+.campus-image {
+  background-image: url("https://www.karunya.edu/sites/default/files/img/images/karunya-campus-view.jpg.pagespeed.ce.IyizWonRVf.jpg");
+  width: 900px;
+  height: 500px;
+  max-width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: right;
+  box-sizing: border-box;
+}
+
+.campus-right {
+  display: table-cell;
+}
+
+.techno {
+  display: table;
+  margin: 0 auto;
+  background-color: wheat;
+  border-style: solid;
+}
+
+.techno-right h2 {
+  text-align: left;
+}
+
+.techno-left {
+  display: table-cell;
+}
+
+.drone {
+  background-image: url("https://yourdronereviews.com/wp-content/uploads/2021/09/Best-Drones-For-Agriculture.jpg");
+  width: 900px;
+  height: 500px;
+  max-width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: right;
+  box-sizing: border-box;
+}
+
+.techno-right {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 50px;
+}
+
+.container {
+  position: relative;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.form-img {
+  padding-left: 300px;
+  padding-top: 80px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none !important;
+  border: 2px solid #04aa6d;
+}
+
+.btn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+footer {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
